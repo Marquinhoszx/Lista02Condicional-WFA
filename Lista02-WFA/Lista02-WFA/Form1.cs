@@ -53,6 +53,12 @@ namespace Lista02_WFA
             exercicio06.Show();
         }
 
+        private void btncexercicio07_Click(object sender, EventArgs e)
+        {
+            Exercicio07 exercicio07 = new Exercicio07();
+            exercicio07.Show();
+        }
+
         
 
     }
