@@ -16,5 +16,12 @@ namespace Lista02_WFA
         {
             InitializeComponent();
         }
+
+        private void btnexercicio01_Click(object sender, EventArgs e)
+        {
+            Exercicio01 exercicio01 = new Exercicio01();
+            exercicio01.Show();
+        }
+
     }
 }
