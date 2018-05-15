@@ -23,5 +23,11 @@ namespace Lista02_WFA
             exercicio01.Show();
         }
 
+        private void btncexercicio02_Click(object sender, EventArgs e)
+        {
+            Exercicio02 exercicio02 = new Exercicio02();
+            exercicio02.Show();
+        }
+
     }
 }
