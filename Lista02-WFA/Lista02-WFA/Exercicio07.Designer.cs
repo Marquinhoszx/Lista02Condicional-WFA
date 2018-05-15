@@ -38,7 +38,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(110, 302);
+            this.button1.Location = new System.Drawing.Point(116, 247);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 95);
             this.button1.TabIndex = 0;
@@ -59,15 +59,15 @@
             // 
             this.tbnumero.Location = new System.Drawing.Point(116, 107);
             this.tbnumero.Name = "tbnumero";
-            this.tbnumero.Size = new System.Drawing.Size(149, 20);
+            this.tbnumero.Size = new System.Drawing.Size(152, 20);
             this.tbnumero.TabIndex = 2;
             // 
             // txtresultado
             // 
-            this.txtresultado.Location = new System.Drawing.Point(12, 146);
+            this.txtresultado.Location = new System.Drawing.Point(3, 146);
             this.txtresultado.Multiline = true;
             this.txtresultado.Name = "txtresultado";
-            this.txtresultado.Size = new System.Drawing.Size(369, 76);
+            this.txtresultado.Size = new System.Drawing.Size(393, 76);
             this.txtresultado.TabIndex = 3;
             // 
             // Exercicio07
