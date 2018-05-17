@@ -29,69 +29,236 @@ namespace Lista02_WFA
         double preco14 = 18.36;
         double preco15 = 27.50;
 
+
+        double pedido01 = 0, pedido02 = 0, pedido03 = 0;
+
         public Exercicio08()
         {
             InitializeComponent();
+
             Tabela();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             //validacao
+            Total();
+
+
+
+        }
+        private void Pedido01()
+        {
 
             try
             {
-                double validarpedido01 = Convert.ToDouble(tbpedido01.Text);
+                
+                int numeroPedido01 = Convert.ToInt32(tbpedido01.Text);
+
+                
+
+
+                if (numeroPedido01 == 1)
+                {
+                    pedido01 = preco1;
+                }
+                else if (numeroPedido01 == 2)
+                {
+                    pedido01 = preco2;
+                }
+                else if (numeroPedido01 == 3)
+                {
+                    pedido01 = preco3;
+                }
+                else if (numeroPedido01 == 4)
+                {
+                    pedido01 = preco4;
+                }
+                else if (numeroPedido01 == 5)
+                {
+                    pedido01 = preco5;
+                }
+                else if (numeroPedido01 == 6)
+                {
+                    pedido01 = preco6;
+                }
+                else if (numeroPedido01 == 7)
+                {
+                    pedido01 = preco7;
+                }
+                else if (numeroPedido01 == 8)
+                {
+                    pedido01 = preco8;
+                }
+                else if (numeroPedido01 == 9)
+                {
+                    pedido01 = preco9;
+                }
+                else if (numeroPedido01 == 10)
+                {
+                    pedido01 = preco10;
+                }
+                else if (numeroPedido01 == 11)
+                {
+                    pedido01 = preco11;
+                }
+                else if (numeroPedido01 == 12)
+                {
+                    pedido01 = preco12;
+                }
+                else if (numeroPedido01 == 13)
+                {
+                    pedido01 = preco13;
+                }
+                else if (numeroPedido01 == 14)
+                {
+                    pedido01 = preco14;
+                }
+                else if (numeroPedido01 == 15)
+                {
+                    pedido01 = preco15;
+                }
             }
             catch
             {
-                MessageBox.Show("Pedido apenas com números");
+                MessageBox.Show("Apenas números de 1 a 15");
                 tbpedido01.Focus();
                 return;
             }
-            try
-            {
-                double validarpedido02 = Convert.ToDouble(tbpedido02.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Pedido apenas com número");
-                tbpedido02.Focus();
-                return;
-            }
-            try
-            {
-                double validarpedido03 = Convert.ToDouble(tbpedido03.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Pedido apenas com números");
-                tbpedido03.Focus();
-                return;
-            }
-
-            double pedido01 = Convert.ToDouble(tbpedido01.Text);
-            double pedido02 = Convert.ToDouble(tbpedido02.Text);
-            double pedido03 = Convert.ToDouble(tbpedido03.Text);
 
 
 
 
         }
-        private void variaveis()
+        private void Pedido02()
         {
-
-            if (preco1 == 1)
+            int numeroPedidio02 = Convert.ToInt32(tbpedido02.Text);
+            if (numeroPedidio02 == 1)
             {
-                
+                pedido02 = preco1;
             }
-            
-
+            else if (numeroPedidio02 == 2)
+            {
+                pedido02 = preco2;
+            }
+            else if (numeroPedidio02 == 3)
+            {
+                pedido02 = preco3;
+            }
+            else if (numeroPedidio02 == 4)
+            {
+                pedido02 = preco4;
+            }
+            else if (numeroPedidio02 == 5)
+            {
+                pedido02 = preco5;
+            }
+            else if (numeroPedidio02 == 6)
+            {
+                pedido02 = preco6;
+            }
+            else if (numeroPedidio02 == 7)
+            {
+                pedido02 = preco7;
+            }
+            else if (numeroPedidio02 == 8)
+            {
+                pedido02 = preco8;
+            }
+            else if (numeroPedidio02 == 9)
+            {
+                pedido02 = preco9;
+            }
+            else if (numeroPedidio02 == 10)
+            {
+                pedido02 = preco10;
+            }
+            else if (numeroPedidio02 == 11)
+            {
+                pedido02 = preco11;
+            }
+            else if (numeroPedidio02 == 12)
+            {
+                pedido02 = preco12;
+            }
+            else if (numeroPedidio02 == 13)
+            {
+                pedido02 = preco13;
+            }
+            else if (numeroPedidio02 == 14)
+            {
+                pedido02 = preco14;
+            }
+            else if (numeroPedidio02 == 15)
+            {
+                pedido02 = preco15;
+            }
         }
-
-
-
-
+        private void Pedido03()
+        {
+            int numeroPedido03 = Convert.ToInt32(tbpedido03.Text);
+            if (numeroPedido03 == 1)
+            {
+                pedido03 = preco1;
+            }
+            else if (numeroPedido03 == 2)
+            {
+                pedido03 = preco2;
+            }
+            else if (numeroPedido03 == 3)
+            {
+                pedido03 = preco3;
+            }
+            else if (numeroPedido03 == 4)
+            {
+                pedido03 = preco4;
+            }
+            else if (numeroPedido03 == 5)
+            {
+                pedido03 = preco5;
+            }
+            else if (numeroPedido03 == 6)
+            {
+                pedido03 = preco6;
+            }
+            else if (numeroPedido03 == 7)
+            {
+                pedido03 = preco7;
+            }
+            else if (numeroPedido03 == 8)
+            {
+                pedido03 = preco8;
+            }
+            else if (numeroPedido03 == 9)
+            {
+                pedido03 = preco9;
+            }
+            else if (numeroPedido03 == 10)
+            {
+                pedido03 = preco10;
+            }
+            else if (numeroPedido03 == 11)
+            {
+                pedido03 = preco11;
+            }
+            else if (numeroPedido03 == 12)
+            {
+                pedido03 = preco12;
+            }
+            else if (numeroPedido03 == 13)
+            {
+                pedido03 = preco13;
+            }
+            else if (numeroPedido03 == 14)
+            {
+                pedido03 = preco14;
+            }
+            else if (numeroPedido03 == 15)
+            {
+                pedido03 = preco15;
+            }
+        }
 
         private void Tabela()
         {
@@ -115,14 +282,20 @@ namespace Lista02_WFA
 
         }
 
-        private void Compra()
+        private void Total()
         {
-            
+            Pedido01();
+            Pedido02();
+            Pedido03();
+            double total = pedido01 + pedido02 + pedido03;
+            label4.Text = string.Format("Total à pagar: {0:c}", total);
+
+
 
 
 
 
         }
     }
-
 }
+

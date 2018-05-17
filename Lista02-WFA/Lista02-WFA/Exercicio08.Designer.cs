@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnFinalizarCompra = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -36,17 +36,18 @@
             this.tbpedido02 = new System.Windows.Forms.TextBox();
             this.tbpedido03 = new System.Windows.Forms.TextBox();
             this.lbresultado = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnFinalizarCompra
             // 
-            this.button1.Location = new System.Drawing.Point(448, 369);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 32);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Finalizar Compra";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnFinalizarCompra.Location = new System.Drawing.Point(448, 369);
+            this.btnFinalizarCompra.Name = "btnFinalizarCompra";
+            this.btnFinalizarCompra.Size = new System.Drawing.Size(134, 32);
+            this.btnFinalizarCompra.TabIndex = 0;
+            this.btnFinalizarCompra.Text = "Finalizar Compra";
+            this.btnFinalizarCompra.UseVisualStyleBackColor = true;
+            this.btnFinalizarCompra.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -105,11 +106,20 @@
             this.lbresultado.Size = new System.Drawing.Size(0, 13);
             this.lbresultado.TabIndex = 7;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(30, 250);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(0, 13);
+            this.label4.TabIndex = 8;
+            // 
             // Exercicio08
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(594, 413);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.lbresultado);
             this.Controls.Add(this.tbpedido03);
             this.Controls.Add(this.tbpedido02);
@@ -117,7 +127,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnFinalizarCompra);
             this.Name = "Exercicio08";
             this.Text = "Exercicio08";
             this.ResumeLayout(false);
@@ -127,7 +137,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFinalizarCompra;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -135,5 +145,6 @@
         private System.Windows.Forms.TextBox tbpedido02;
         private System.Windows.Forms.TextBox tbpedido03;
         private System.Windows.Forms.Label lbresultado;
+        private System.Windows.Forms.Label label4;
     }
 }
